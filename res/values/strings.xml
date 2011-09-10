@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">First Bus?</string>
+	<string name="main_title">First Bus?</string>
+	<string name="new_search_label">New Search</string>
+	<string name="about_label">About</string>
+	<string name="map_label">View Map</string>
+	<string name="exit_label">Exit</string>
+	<string name="dialog_text">Made by Nerds</string>
+	<string name="error_text">Web page error</string>
+	<string name="error_html">Jsoup info</string>
+	<string name="search_title">Search Bus</string>
+	<string name="min_fermate">Il numero minimo di fermate è 2!</string>
+	<string name="map_title">Map</string>
+	<string name="location_text">You have to enable some localization service...</string>
+	<string name="lacation_error">Localization Error</string>
+	<string name="gps_text">GPS is better!</string>
+	<string name="gps_is_better">Localization Advice</string>
+	<string name="no_network_text">No network connection available</string>
+	<string name="no_network">No connection</string>
+	<string name="arrivals_label">Arrivals</string>
+	<string name="arrivals_title">Bus Arrivals</string>
+</resources>
+

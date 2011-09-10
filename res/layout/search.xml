@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TextView android:id="@+id/LB_stop" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Numero di fermate:" android:layout_x="5dip" android:layout_y="6dip"></TextView>
+	<TableLayout>
+		<TableRow android:gravity="center_vertical|center_horizontal">
+			<Button android:id="@+id/stop_meno" android:layout_height="60px" android:layout_width="60px" android:text="-"></Button>
+			<EditText android:editable="false" android:gravity="center_vertical|center_horizontal" android:text="2" android:layout_height="60px" android:id="@+id/stop" android:layout_width="60px" ></EditText>
+			<Button android:id="@+id/stop_piu" android:layout_height="60px" android:layout_width="60px" android:text="+" android:maxWidth="10px"></Button>
+		</TableRow>
+	</TableLayout>
+	<TextView android:id="@+id/LB_fermata1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Fermata 1:" ></TextView>
+	<TableRow>
+		<EditText android:maxLength="4" android:inputType="number" android:width="100px" android:text="" android:layout_height="60px" android:id="@+id/fermata1" android:layout_width="100px"></EditText>
+		<Spinner android:layout_height="60px" android:layout_width="200px" android:id="@+id/busList1" android:layout_x="146dip" android:layout_y="126dip"></Spinner>
+	</TableRow>
+	<TextView android:id="@+id/LB_fermata2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Fermata 2:" ></TextView>
+	<TableRow>
+		<EditText android:maxLength="4" android:inputType="number" android:width="100px" android:text="" android:layout_height="60px" android:id="@+id/fermata2" android:layout_width="100px"></EditText>
+		<Spinner android:layout_height="60px" android:layout_width="200px" android:id="@+id/busList2"></Spinner>
+	</TableRow>
+	<TableLayout>
+		<TableRow android:gravity="center_horizontal">
+		</TableRow>
+	</TableLayout>
+	<Button android:layout_height="60px" android:id="@+id/selectLine" android:text="Select line" android:layout_width="100px"></Button>
+	<Button android:layout_height="60px" android:id="@+id/whoWins" android:text="Who wins?" android:layout_width="100px"></Button>
+</TableLayout>

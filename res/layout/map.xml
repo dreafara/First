@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent">
+	<com.google.android.maps.MapView android:id="@+id/mapView"
+		android:layout_width="fill_parent" 
+		android:layout_height="fill_parent"
+		android:clickable="true"
+		
+		android:apiKey="0goV9Y0W_t7StgWp55Y0h7SSCxQLcSd1t1xkcVw" />
+</LinearLayout>
+
+<!-- MacBook android:apiKey="0goV9Y0W_t7TdowUJXZu4qxXH8Dx7oamNLIPm4w" -->
+<!-- Lenovo android:apiKey="0goV9Y0W_t7TgWA4E4RVgjIsb_xUZE4beaHiYpQ" -->
+<!-- iMac android:apiKey="0goV9Y0W_t7TgWA4E4RVgjIsb_xUZE4beaHiYpQ" -->
+
+<!-- Lenovo2 0goV9Y0W_t7StgWp55Y0h7SSCxQLcSd1t1xkcVw -->

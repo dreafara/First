@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+ 	android:layout_above="@drawable/sy1" android:padding="30dip"
+	android:layout_gravity="center" android:layout_height="wrap_content"
+	android:layout_width="wrap_content" android:background="@drawable/sy1"
+	android:orientation="vertical">
+	<TableRow>
+	<TextView android:text="@string/main_title" android:id="@+id/textView1"
+		android:textSize="29px" android:textStyle="bold"
+		android:layout_height="wrap_content" android:layout_width="fill_parent"
+		android:layout_gravity="top" android:layout_weight="1"></TextView>
+	</TableRow>
+
+	<TableRow>
+		<Button android:layout_gravity="bottom" android:layout_weight="12" android:id="@+id/new_button" android:layout_width="fill_parent" android:text="@string/new_search_label" android:layout_height="80dp"></Button>
+	</TableRow>
+	<TableRow>
+		<Button android:layout_gravity="bottom" android:layout_weight="12" android:id="@+id/arrivals_button" android:layout_width="fill_parent" android:layout_height="80dp" android:text="@string/arrivals_label"></Button>
+	</TableRow>
+		<TableLayout>
+		<TableRow> 
+			<Button android:text="@string/map_label" android:layout_height="fill_parent" android:layout_gravity="bottom" android:layout_weight="12" android:id="@+id/map_button" android:layout_width="fill_parent"></Button>
+			<Button android:text="@string/exit_label" android:layout_height="fill_parent" android:layout_gravity="bottom" android:layout_weight="12" android:id="@+id/exit_button" android:layout_width="fill_parent"></Button>
+		</TableRow>
+	</TableLayout>
+	
+</TableLayout>

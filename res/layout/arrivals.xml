@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:id="@+id/tableLayout1" android:layout_width="match_parent" android:layout_height="match_parent" xmlns:android="http://schemas.android.com/apk/res/android">
+	<TableLayout>
+		<TableRow android:gravity="center_vertical|center_horizontal">
+		</TableRow>
+	</TableLayout>
+	<TextView android:id="@+id/LB_fermata1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="Fermata:" ></TextView>
+	<TableRow>
+		<EditText android:maxLength="4" android:inputType="number" android:width="100px" android:text="" android:layout_height="60px" android:id="@+id/fermata" android:layout_width="100px"></EditText>
+		<CheckBox android:text="All bus" android:id="@+id/all_bus" android:layout_width="wrap_content" android:layout_height="wrap_content"></CheckBox>
+	</TableRow>
+	<TableRow>
+		<Spinner android:layout_height="60px" android:id="@+id/busList" android:layout_width="200px"></Spinner>
+		<Button android:id="@+id/selectLine" android:layout_height="60px" android:text="Select line" android:layout_width="100px"></Button>
+	</TableRow>
+	<TableLayout>
+		<TableRow android:gravity="center_horizontal">
+		</TableRow>
+	</TableLayout>
+	<Button android:id="@+id/search" android:layout_height="60px" android:text="Search" android:layout_width="100px"></Button>
+
+</TableLayout>
