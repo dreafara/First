@@ -38,7 +38,7 @@ public class Arrivals extends Activity implements OnClickListener, Runnable {
 	//sostituire il numero finale con il numero delle fermate letto dall'utente
 
 	private HashMap<String, String> map;
-	private AlertDialog alert;
+	//private AlertDialog alert;
 	private ProgressDialog dialog_load;
  	
 	AlertDialog buildMyDialog(Integer type){
@@ -158,16 +158,11 @@ public class Arrivals extends Activity implements OnClickListener, Runnable {
 
 	private void search_bus(){
 		map = new HashMap<String,String>();
-		//ArrayList<String> fermate = new ArrayList<String>();
 		
 		ArrayList<String> spinnerArray = new ArrayList<String>();
 		
 		EditText fermata = (EditText) findViewById(R.id.fermata);
 		
-		//fermate.add(fermata1.getText().toString());
-		//fermate.add(fermata2.getText().toString());
-	    
-		//nel caso di + di 2 fermate leggere il numero dall'interfaccia
 	    
 		String my_url = "http://www.5t.torino.it/pda/it/arrivi.jsp?n=";
 		
